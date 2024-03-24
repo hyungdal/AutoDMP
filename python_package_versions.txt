@@ -32,7 +32,7 @@ patool==1.12
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.1.0
-pip==20.2.4
+pip==24.0
 pkgconfig==1.5.5
 pkginfo==1.7.0
 prompt-toolkit==3.0.8
@@ -56,9 +56,12 @@ setuptools==50.3.1
 Shapely==1.7.1
 six==1.15.0
 soupsieve==2.1
-torch==1.7.1
+#torch==1.7.1
+torch==1.9.1+cu111
 torchelastic==0.2.1
-torchvision==0.8.2
+#torchvision==0.8.2
+torchvision==0.10.1+cu111
+torchaudio==0.9.1
 tqdm==4.51.0
 traitlets==5.0.5
 typing-extensions==3.7.4.3
